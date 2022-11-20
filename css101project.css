@@ -1,0 +1,646 @@
+body {
+    background-color: white;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    font-style: normal;
+    margin: 0%;
+}
+
+/* Clickable Links */
+
+.headerlogo,.contact,.headernavlink,.engine_textbox_url,.wheel_textbox_url:link
+{
+    color: black;
+    text-decoration: none; 
+}
+.headerlogo,.contact,.headernavlink,.engine_textbox_url,.wheel_textbox_url:visited
+{
+    color: black;
+    text-decoration: none; 
+}
+.headerlogo,.contact,.headernavlink,.engine_textbox_url,.wheel_textbox_url:hover
+{
+    color: black;
+    text-decoration: none; 
+}
+.headerlogo,.contact,.headernavlink,.engine_textbox_url,.wheel_textbox_url:active
+{
+    color: black;
+    text-decoration: none; 
+} 
+.footer_sibling_grandchild_mailto,.footer_stepsibling_child_image,.partner_url,.pre_footer_url,.moreinfo,.footer_grandchild_url:link
+{
+    text-decoration: none; 
+    color: white;
+}
+.footer_sibling_grandchild_mailto,.footer_stepsibling_child_image,.partner_url,.pre_footer_url,.moreinfo,.footer_grandchild_url:visited
+{
+    color: white;
+    text-decoration: none; 
+}
+.footer_sibling_grandchild_mailto,.footer_stepsibling_child_image,.partner_url,.pre_footer_url,.moreinfo,.footer_grandchild_url:hover
+{
+    color: white;
+    text-decoration: none; 
+}
+.footer_sibling_grandchild_mailto,.footer_stepsibling_child_image,.partner_url,.pre_footer_url,.moreinfo,.footer_grandchild_url:active
+{
+    color: white;
+    text-decoration: none; 
+}
+/* Clickable Links */
+
+/* Header */
+
+.headerparent
+            {
+                display: block;
+                text-align: left;
+                font-size: 55px;
+                position: relative;
+                /* width: 100%;
+                margin-left: auto;
+                margin-right: auto; */
+                padding-right: 130px;
+                padding-left: 130px;
+                padding-top: 50px;
+                padding-bottom: 150px;
+                /* border: solid 1px red; */
+                border-bottom: 1px solid lightgrey;
+            }
+.headerlogo
+            {
+                float: left;
+                padding-top: 20px;
+                padding-left: 10px;
+                font-family: Copperplate, Copperplate Gothic Light, fantasy;
+                color: black;
+            }
+
+.headerchild
+            {
+                position: relative;
+                float: left;
+                border-radius: 50%;
+                /* padding-right: 17.5px;
+                padding-left: 17.5px; */
+                /* border: solid 1px red;    */
+                background-image: url("https://images.unsplash.com/photo-1572029117144-b991c2eaee93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1976&q=80");
+                background-position: center;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+.headerURLs
+            {
+                float: right;
+                /* border: 1px solid red; */
+                font-size: 20px;
+                color: black;
+                position: relative;
+                /* width: 100px;
+                height: 100px; */
+            }
+                ul
+                    {
+                        display: flex;
+                        float: right;
+                        list-style-type: none;
+                    }
+
+              
+                        li.header_services_list {
+                            display: block;
+                            color: black;
+                            text-align: center;
+                            padding: 16px;
+                            text-decoration: none;
+                            font-size: 25px;
+                            margin-right: 100px;
+                        }
+                        li.header_contact_list {
+                        display: block;
+                        color: black;
+                        text-align: center;
+                        padding: 16px;
+                        text-decoration: none;
+                        font-size: 25px;
+                        margin-right: 100px;
+
+                        }
+                        li.header_backdoor_list {
+                            display: block;
+                            color: black;
+                            text-align: center;
+                            padding: 16px;
+                            text-decoration: none;
+                            font-size: 25px;
+                            margin-right: 100px;
+                        }
+                        
+/* Header */
+
+
+/* Background Image */
+
+.car_image_parent
+            {
+                display: block;
+                background-image: 
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.80)),
+                url("https://images.unsplash.com/photo-1603553329474-99f95f35394f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80");
+                color: white;
+                padding: 144px 17px;
+                height: 350px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+            }
+
+
+.car_image_header 
+            {
+                display: block;
+                color: white;
+                margin-left: 128px;
+                margin-right: 128px;
+                font-size: 64px;
+
+            }
+
+.car_image_paragraph    
+            {
+                color: white;
+                margin-top: 32px;
+                margin-left: 128px;
+                margin-right: 128px;
+                margin-bottom: 80px;
+                font-size: 32px;
+            }
+.car_image_contact
+            {
+                color: black;
+                margin-left: 128px;
+                margin-right: 128px;
+                text-transform: uppercase;
+            }
+
+/* Main page content             */
+
+.main_parent
+            {
+                display: block;
+                margin: 50px 50px;
+
+                padding: 0px;
+                height: auto;
+                letter-spacing: 0.05em;
+
+                
+            }
+
+.main_child
+            {
+                display: block;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-left: 200px;
+                font-size: 40px;
+                
+            }
+
+.main_child_header
+            {
+                font-size: 40px;
+                color: black;
+                font-weight: bolder;
+                text-align: center;
+                
+            }
+.valuep
+            {
+                font-size: 28px;
+                color: black;                
+            }            
+.engine_parent
+            {
+                float: left;
+                margin-right: 40px;
+                margin-left: 150px;
+            }
+
+.engine_child_image
+            {
+                float: left;
+                width: 650px;
+                height: 450px;
+                background-image: url(https://images.unsplash.com/photo-1527383418406-f85a3b146499?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); 
+                background-position: center center;
+                background-size: cover;
+            }
+
+.engine_textbox_header
+            {
+                margin-top: 500px;
+                color: black;
+                text-align: center;
+                font-size: 25px;
+            }   
+.engine_textbox_paragraph    
+            {
+                color: black;
+                text-align: center;
+                font-size: 20px;
+
+            }                 
+.wheel_parent
+            {
+                float: right;
+                margin-right: 150px;
+            }
+
+.wheel_child_image
+            {
+                float: right;
+                width: 650px;
+                height: 450px;
+                background-image: url("https://images.unsplash.com/photo-1570477885232-ed50f68ef274?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); 
+                background-position: center center;
+                background-size: cover;
+
+            }   
+
+                         
+.wheel_textbox_header
+            {
+                margin-top: 500px;
+                color: black;
+                text-align: center;
+                font-size: 25px;
+            }            
+.wheel_textbox_paragraph
+            {
+                color: black;
+                text-align: center;
+                font-size: 20px;
+            }
+.ferrari_parent
+            {
+                float: left;
+                margin: 40px 40px;
+            }
+.ferrari_child
+            {
+                margin-left: 170px
+            }                        
+.ferrari_child_url
+            {
+                display: block;
+                background-image: url("https://images.unsplash.com/photo-1628501284943-89512e6f483b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1926&q=80");
+                width: 850px;
+                height: 650px;
+                background-position: center center;
+                background-size: cover;
+            }    
+.ferrari_child_block
+            {
+                display: inline-block;
+
+                position: relative;
+                padding: 30px 60px 70px 60px;
+                left: 851px;
+                bottom: 143px;
+                background-color: rgb(44, 38, 38);
+            }
+.ferrari_child_header
+            {
+                color: white;
+                text-align: left;
+                font-size: 30px;
+            }
+.ferrari_child_para
+            {
+                color: white;
+                text-align: left;
+                text-transform: uppercase;
+                font-size: 25px;
+                padding: 5px 0px;
+                
+            }
+.moreinfo
+            {
+                background-color: white;
+                color: rgb(44, 38, 38);
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 20px;
+                padding: 15px 40px;
+                
+            }
+   
+.drift_parent
+            {
+                float: right;
+                margin: 40px 170px 40px 40px;
+            }   
+
+.drift_child_image
+            {
+                display: block;
+                background-image: url("https://images.unsplash.com/photo-1514046877476-ccde53bfc372?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80");
+                width: 850px;
+                height: 650px;
+                background-position: right;
+                background-size: cover;
+            }   
+.drift_child_block
+            {
+                display: inline-block;
+
+                position: relative;
+                padding: 30px 60px 70px 60px;
+                left: -389px;
+                bottom: 93px;
+                background-color: rgb(44, 38, 38);
+            }   
+.drift_child_header    
+            {
+                color: white;
+                text-align: left;
+                text-transform: uppercase;
+                font-size: 30px;
+            }   
+.drift_child_para
+            {
+                color: white;
+                text-align: left;
+                text-transform: uppercase;
+                font-size: 25px;
+                padding: 5px 0px;
+            }   
+.contact
+            {
+                background-color: white;
+                color: rgb(44, 38, 38);
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 20px;
+                padding: 20px 30px;
+            }                                                                             
+                    
+.wash_parent
+            {
+                float: left;
+                margin: 40px 40px 40px 110px;
+            }
+                  
+.wash_child_image
+            {
+                float: left;
+                background-image: url("https://images.unsplash.com/photo-1607860108855-64acf2078ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+                width: 1200px;
+                height: 900px;
+                background-position: center center;
+                background-size: cover;
+            }    
+.wash_child_block
+            {
+                display: inline-block;
+                /* margin: 40px 40px; */
+                /* border: 1px solid red; */
+                position: relative;
+                padding: 30px 60px 70px 60px;
+                left: 798px;
+                bottom: 139px;
+                background-color: rgb(44, 38, 38);
+            }
+.wash_child_header
+            {
+                color: white;
+                text-align: left;
+                font-size: 30px;
+            }
+.wash_child_para
+            {
+                color: white;
+                text-align: left;
+                text-transform: uppercase;
+                font-size: 25px;
+                padding: 5px 0px;
+                
+            }
+
+/* Main page content             */
+
+/* Partner Section */
+
+.partner_parent
+            {
+                clear: both;
+                text-align: center;
+
+            }
+.partner_header
+            {
+                color: black;
+                padding: 10px 0;
+                font-size: 25px;
+
+            }            
+.partner_url
+            {
+                color: white;
+                background-color: rgb(52, 44, 167);
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 15px;
+                padding: 13px 40px;
+            } 
+
+/* Partner Section */
+
+/* Review Section */
+
+.review_parent
+            {
+                color: black;
+                font-size: 15px;
+                padding: 13px 40px;
+                text-align: center;
+                margin-top: 80px;
+                margin-bottom: 20px;
+            }   
+.review_header
+            {
+                color: black;
+                font-weight: bold;
+                font-style: italic;
+                margin: 10px 0px;
+                font-size: 25px;
+            }   
+.review_para
+            {
+                color: black;
+                font-size: 16px;
+                text-transform: uppercase;
+                margin: 5px 0px;
+            }                             
+
+/* Review Section */
+
+
+/* Pre Footer  */
+
+.pre_footer_parent
+            {
+                clear: both;
+                display: block;
+                background-color: rgb(190, 111, 221);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                padding: 20px 0px 40px 0
+            }   
+.pre_footer_child
+            {
+                margin: 0px 150px;
+            }   
+.pre_footer_grandchild
+            {
+                display: inline-block;
+                padding-right: 300px;
+
+            }           
+.pre_footer_grandchild_header
+            {
+                color: white;
+                font-size: 45px;
+            }
+.pre_footer_grandchild_para
+            {
+                color: white;
+                font-size: 30px;
+                letter-spacing: 0.05em;
+                line-height: 35px; 
+            }            
+.pre_footer_contact
+            {
+                display: inline-block;
+                position: relative;
+            }            
+
+.pre_footer_url
+            {
+                color: rgb(44, 38, 38);
+                text-transform: uppercase;
+                display: block;
+                /* border: solid 1px red; */
+                background-color: white;
+                padding: 15px 40px;
+                font-size: 20px;
+            }         
+
+/* Pre Footer  */
+
+
+/* Footer  */
+
+.footer_grandparent
+                        {
+                            display: block;
+                            padding: 72px 0px;
+                            background-color: #000000;
+                            color: white;
+                        }   
+.footer_parent
+                        {
+                            width: 100%;
+                            margin-right: auto;
+                            margin-left: auto;
+                        }   
+ 
+.footer_grandchild
+                        {
+                            display: inline-block;
+                            padding-left: 15rem;
+                            padding-right: 11rem;
+                        }   
+                        .footer_grandchild_links
+                                        {
+                                            color: rgb(94, 87, 87);
+                                            font-size: 15px;
+                                            margin-bottom: 10px;
+                                            text-transform: uppercase;
+                                        }
+                                                     
+                        .footer_grandchild_url
+                                        {
+                                            color: white;
+                                            display: block;
+                                            font-size: 25px;
+                                            padding-bottom: 5px;
+                                        }
+.footer_sibling
+                        {
+                            display: inline-block;
+                            padding-left: 3rem;
+                            padding-right: 8rem;
+                        }   
+ 
+                        .footer_sibling_grandchild_header
+                                        {
+                                            color: rgb(94, 87, 87);
+
+                                            margin-bottom: 13px;
+                                            text-transform: uppercase;
+
+                                        }                
+                        .footer_sibling_grandchild_para
+                                        {
+                                            font-size: 18px;
+                                            margin-bottom: 10px;
+                                        }
+
+                        .footer_stepsibling
+                                        {
+                                            font-size: 17px;
+
+                                        }
+.footer_sibling_hours
+                        {
+                            display: inline-block;
+                            padding-left: 3rem;
+                            padding-right: 3rem;
+                        }   
+                        .footer_sibling_hours_header
+                                        {
+                                            color: rgb(94, 87, 87);
+
+                                            margin-bottom: 42px;
+                                            text-transform: uppercase;
+                                            font-size: 13px;
+
+                                        }
+                        .footer_sibling_hours_times
+                                        {
+                                            font-size: 19px;
+                                        }                
+.footer_social
+                        {
+                            display: inline-block;
+                            padding-left: 10rem;
+                            padding-right: 3rem;
+                        }
+                        .footer_social_twitter
+                                        {
+                                            margin-right: 10px;
+                                        }   
+                        .footer_social_youtube
+                                        {
+                                        }                
+                        .footer_social_copyright
+                                        {
+                                            margin-top: 10px;
+                                        }
+/* Footer  */
